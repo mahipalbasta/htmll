@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+     background-image: url("https://free4kwallpapers.com/uploads/originals/2019/07/06/fantasy-clock-wallpaper.jpg"); 
+    background-color: rgb(36, 32, 27);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stopWatch{
+background-color: black;
+padding: 22px 25px;
+border-radius: 18px;
+font-weight: 600;
+font-size: 100px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 14px 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#stopBtn{
+    background-color: brown;
+}
+#startBtn{
+    background-color: aquamarine;
+}
+#resetBtn{
+    background-color: blue;
+}
